@@ -2,7 +2,7 @@ version: "3"
 services:
   apache:
     image: "tomcat:9"
-  ports:
-    - "8080:8080"
-  volumes:
-    - "/docker:/usr/local/tomcat/webapps
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/docker:/usr/local/tomcat/webapps
